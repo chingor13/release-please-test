@@ -4,11 +4,11 @@
   <groupId>com.example</groupId>
   <artifactId>example-module1</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0</version><!-- {x-version-update:module1:current} -->
+  <version>0.1.1-SNAPSHOT</version><!-- {x-version-update:module1:current} -->
   <parent>
     <groupId>com.example</groupId>
     <artifactId>example-parent</artifactId>
-    <version>0.1.0</version><!-- {x-version-update:parent:current} -->
+    <version>0.1.1-SNAPSHOT</version><!-- {x-version-update:parent:current} -->
   </parent>
   <name>Release Please Playground Module 1</name>
   <description>Testing Playground for Release Please</description>
