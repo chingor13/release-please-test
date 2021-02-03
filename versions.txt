@@ -1,7 +1,7 @@
 # Format:
 # module:released-version:current-version
 
-parent:0.0.0:0.0.1-SNAPSHOT
-module1:0.0.0:0.0.1-SNAPSHOT
-module2:0.0.0:0.0.1-SNAPSHOT
-module3:0.0.0:0.0.1-SNAPSHOT
+parent:0.1.0:0.1.0
+module1:0.1.0:0.1.0
+module2:0.1.0:0.1.0
+module3:0.1.0:0.1.0
