@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>example-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:parent:current} -->
+  <name>Release Please Playground Parent</name>
+  <url>https://github.com/chingor13/release-please-testing</url>
+  <description>Testing Playground for Release Please</description>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.example</groupId>
+        <artifactId>example-module1</artifactId>
+        <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:module1:current} -->
+      </dependency>
+      <dependency>
+        <groupId>com.example</groupId>
+        <artifactId>example-module2</artifactId>
+        <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:module2:current} -->
+      </dependency>
+      <dependency>
+        <groupId>com.example</groupId>
+        <artifactId>example-module2</artifactId>
+        <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:module2:current} -->
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <modules>
+    <module>module1</module>
+    <module>module2</module>
+    <module>module3</module>
+  </modules>
+</project>
