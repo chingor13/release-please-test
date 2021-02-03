@@ -6,3 +6,4 @@ This repo is for testing commit scenarios for release-please.
 * feature 2
 
 * plain feature 1
+* plain feature 2
