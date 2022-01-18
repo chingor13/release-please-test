@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://github.com/chingor13/release-please-test/compare/v0.2.0...v0.2.1) (2022-01-18)
+
+
+### Bug Fixes
+
+* add docs for module 3 ([#12](https://github.com/chingor13/release-please-test/issues/12)) ([ae3aeb7](https://github.com/chingor13/release-please-test/commit/ae3aeb797915cb9763889872db54a6ab9a0f69ac))
+
 ## [0.2.0](https://github.com/chingor13/release-please-test/compare/v0.1.0...v0.2.0) (2022-01-12)
 
 

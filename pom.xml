@@ -4,7 +4,7 @@
   <groupId>com.example</groupId>
   <artifactId>example-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.1-SNAPSHOT</version><!-- {x-version-update:parent:current} -->
+  <version>0.2.1</version><!-- {x-version-update:parent:current} -->
   <name>Release Please Playground Parent</name>
   <url>https://github.com/chingor13/release-please-testing</url>
   <description>Testing Playground for Release Please</description>
@@ -14,17 +14,17 @@
       <dependency>
         <groupId>com.example</groupId>
         <artifactId>example-module1</artifactId>
-        <version>0.2.1-SNAPSHOT</version><!-- {x-version-update:module1:current} -->
+        <version>0.2.1</version><!-- {x-version-update:module1:current} -->
       </dependency>
       <dependency>
         <groupId>com.example</groupId>
         <artifactId>example-module2</artifactId>
-        <version>0.2.1-SNAPSHOT</version><!-- {x-version-update:module2:current} -->
+        <version>0.2.1</version><!-- {x-version-update:module2:current} -->
       </dependency>
       <dependency>
         <groupId>com.example</groupId>
         <artifactId>example-module2</artifactId>
-        <version>0.2.1-SNAPSHOT</version><!-- {x-version-update:module2:current} -->
+        <version>0.2.1</version><!-- {x-version-update:module2:current} -->
       </dependency>
     </dependencies>
   </dependencyManagement>
