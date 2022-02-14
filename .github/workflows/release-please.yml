@@ -11,4 +11,4 @@ jobs:
         id: release
         with:
           release-type: java-yoshi
-      - run: echo '${{ steps.release.outputs }}'
+      - run: echo '${{ toJSON(steps.release.outputs) }}'
