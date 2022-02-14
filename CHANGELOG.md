@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.2](https://github.com/chingor13/release-please-test/compare/v0.2.1...v0.2.2) (2022-02-14)
+
+
+### Bug Fixes
+
+* debug ([515bfd3](https://github.com/chingor13/release-please-test/commit/515bfd30dbe2b2cb5f697674348afb5b3546bf8c))
+* fix release type ([99efa62](https://github.com/chingor13/release-please-test/commit/99efa626c2135e9eea9993866343de9b1760f286))
+
 ### [0.2.1](https://github.com/chingor13/release-please-test/compare/v0.2.0...v0.2.1) (2022-01-18)
 
 
