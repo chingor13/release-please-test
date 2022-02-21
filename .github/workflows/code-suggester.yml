@@ -5,7 +5,7 @@ jobs:
   suggest:
     runs-on: ubuntu-latest
     env:
-      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      ACCESS_TOKEN: fake-token
     steps:
       - uses: actions/checkout@v2
       - name: make-changes
