@@ -1,0 +1,25 @@
+on:
+  workflow_dispatch:
+name: code-suggester
+jobs:
+  suggest:
+    runs-on: ubuntu-latest
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: make-changes
+        run: echo 'foo' > bar.txt
+      - uses: googleapis/code-suggester@exit-status
+        with:
+          command: pr
+          upstream_owner: chingor13
+          upstream_repo: release-please-test
+          description: 'This pull request is adding a LICENSE file'
+          title: 'chore(license): add license file'
+          message: 'chore(license): add license file'
+          branch: my-branch
+          git_dir: '.'
+          labels: |
+            bug
+            priority: p1
