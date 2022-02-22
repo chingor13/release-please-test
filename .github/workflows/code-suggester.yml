@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: make-changes
         run: echo 'foo' > bar.txt
-      - uses: googleapis/code-suggester@exit-status
+      - uses: googleapis/code-suggester@js-action
         with:
           command: pr
           upstream_owner: chingor13
