@@ -19,6 +19,7 @@ jobs:
           title: 'chore(license): add license file'
           message: 'chore(license): add license file'
           branch: my-branch
+          primary: main
           git_dir: '.'
           labels: |
             bug
