@@ -4,13 +4,13 @@ name: code-suggester
 jobs:
   suggest:
     runs-on: ubuntu-latest
-    env:
-      ACCESS_TOKEN: ${{ secrets.YOSHI_CODE_BOT_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - name: make-changes
         run: echo 'foo' > bar.txt
       - uses: googleapis/code-suggester@js-action
+        env:
+          ACCESS_TOKEN: ${{ secrets.YOSHI_CODE_BOT_TOKEN }}
         with:
           command: pr
           upstream_owner: chingor13
@@ -21,7 +21,7 @@ jobs:
           branch: my-branch
           primary: main
           git_dir: '.'
-          force: true
+          fork: true
           labels: |
             bug
             priority: p1
