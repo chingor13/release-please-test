@@ -5,7 +5,7 @@ jobs:
   suggest:
     runs-on: ubuntu-latest
     env:
-      ACCESS_TOKEN: fake-token
+      ACCESS_TOKEN: ${{ secrets.YOSHI_CODE_BOT_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - name: make-changes
