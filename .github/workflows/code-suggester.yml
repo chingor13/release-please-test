@@ -22,6 +22,7 @@ jobs:
           primary: main
           git_dir: '.'
           fork: true
+          force: true
           labels: |
             bug
             priority: p1
